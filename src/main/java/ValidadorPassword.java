@@ -1,6 +1,6 @@
 public class ValidadorPassword {
     private static final int MIN_LENGTH = 8;
-    private static final int MAX_LENGTH = 12;
+    private static final int MAX_LENGTH = 19;
 
     public boolean esValida(String password) {
         if (password == null) return false;
